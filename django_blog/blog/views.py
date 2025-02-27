@@ -21,3 +21,6 @@ def login(request):
 
 def signup(request):
     return render(request, 'blog/signup.html')
+
+def home(request):
+    return render(request, 'blog/home.html')
